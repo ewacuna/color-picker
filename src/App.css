@@ -1,0 +1,31 @@
+:root {
+    --red: 0;
+    --green: 0;
+    --blue: 0;
+}
+
+body {
+    background-color: rgb(var(--red), var(--green), var(--blue));
+    margin: 0;
+}
+
+#root {
+    align-content: center;
+    display: grid;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+input[type='range'] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    height: 0.25rem;
+    margin-bottom: 2.5rem;
+    outline: none;
+    width: 15rem;
+}

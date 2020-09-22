@@ -1,0 +1,43 @@
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 0.25rem solid #fff;
+    border-radius: 1rem;
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+input[name='red']::-webkit-slider-thumb {
+    background-color: red;
+}
+
+input[name='green']::-webkit-slider-thumb {
+    background-color: green;
+}
+
+input[name='blue']::-webkit-slider-thumb {
+    background-color: blue;
+}
+
+input[type='range']::-moz-range-thumb {
+    -moz-appearance: none;
+    appearance: none;
+    border: 0.25rem solid #fff;
+    border-radius: 1rem;
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+input[name='red']::-moz-range-thumb {
+    background-color: red;
+}
+
+input[name='green']::-moz-range-thumb {
+    background-color: green;
+}
+
+input[name='blue']::-moz-range-thumb {
+    background-color: blue;
+}
