@@ -9,7 +9,7 @@ export const CopyBox = ({ rgbColor }) => {
 
     // Convert RGB Color to HEX
     const rgbToHex = () => {
-        var rgb = blue | (green << 8) | (red << 16);
+        let rgb = blue | (green << 8) | (red << 16);
         return '#' + (0x1000000 + rgb).toString(16).slice(1);
     };
 
